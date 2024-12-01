@@ -11,7 +11,13 @@ import CoreData
 struct ContentView: View {
     
     var body: some View {
-       Text("Hello, World!")
+        VStack {
+            Text("Hello, World!")
+            
+            Image(systemName: "arcade.stick.and.arrow.up")
+                .resizable()
+                .frame(width: 60, height: 60)
+        }
             
             }
                
