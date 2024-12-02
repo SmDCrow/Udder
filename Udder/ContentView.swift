@@ -17,6 +17,9 @@ struct ContentView: View {
             Image(systemName: "arcade.stick.and.arrow.up")
                 .resizable()
                 .frame(width: 60, height: 60)
+            Image(systemName: "r.joystick.press.down.fill")
+                .resizable()
+                .frame(width: 60, height: 60)
         }
             
             }
